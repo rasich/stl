@@ -1,0 +1,33 @@
+form {
+  margin: 20px;
+}
+form label {
+  display: block;
+  margin: 15px;
+  margin-left: 0;
+}
+form label span{
+  display: inline-block;
+  width: 60px;
+  font-weight: 600;
+}
+form label select,
+form label input {
+  margin-left: 15px;
+  border: 1px solid #cccccc;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  height: 24px;
+  width: 50%;
+}
+form .form-button {
+  margin-top: 10px;
+}
+form .form-button:focus {
+  color: rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+  cursor: default;
+}
